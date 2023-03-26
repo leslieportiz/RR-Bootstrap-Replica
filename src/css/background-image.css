@@ -1,0 +1,22 @@
+.intro-banner {
+    width: 100%;
+    max-width: 1368px;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    /* flex-direction: column; */
+    margin: 0 auto;
+    margin-bottom: 32px;
+    min-height: 220px;
+    background-color:rgb(223,238,214);
+  }
+  
+  .card-img{
+    height: 300px;
+    width: 200px;
+    float: right;
+  }
+
+  h1 {
+    text-align: right;
+  }
