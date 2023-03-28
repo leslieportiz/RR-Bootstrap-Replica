@@ -18,5 +18,85 @@
   }
 
   h1 {
-    text-align: right;
+    text-align: left;
+    margin-left: 200px;
+  }
+
+  p {
+    text-align: left;
+    margin-left: 200px;
+  }
+
+  .address-select {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: solid 1px #C7C8CD;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    margin-left: 200px;
+  }
+
+  .country-select-card {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+  
+  .country-select {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: solid 1px #C7C8CD;
+    display: flex;
+    align-items: center;
+  }
+  
+  .country-select svg {
+    width: 25px;
+    height: 25px;
+    margin-right: 6px;
+    vertical-align: auto;
+    background: url(dropdownarrow.png) ;
+
+  }
+  
+  .arrow-image{
+    width: 10px;
+    height: 10px;
+  }
+  .country-select select {
+    appearance: none;
+    border: none;
+    width: 8px;
+    height: 5px;
+    text-indent: 8px;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8px;
+  }
+  
+  .intro-text {
+    padding-left: 144px;
+  }
+  
+  .intro-text h1 {
+    font-size: 41px;
+    line-height: 52px;
+    font-weight: 600;
+    color: #343538;
+    margin: 0;
+    width: 578px;
+  }
+  
+  .intro-text p {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: normal;
+    color: #343538;
+    margin: 16px 0 0 0;
   }
